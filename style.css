@@ -1,0 +1,146 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*==============================*/
+/*       Contact Card           */
+/*==============================*/
+#contactCard {
+	background-color: burlywood;
+	width: 90%;
+	text-align: center;
+	font-size: 32px;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+/*==============================*/
+/*       Bottom Container       */
+/*==============================*/
+#bottomContainer {
+	width: 90%;
+	margin: 0 auto;
+	background-color: bisque;
+}
+
+
+/*==============================*/
+/*         Project One          */
+/*==============================*/
+#projectOne {
+	width: 90%;
+	margin: 0 auto;
+	background-color: green;
+	padding: 10px;
+
+}
+
+
+/*==============================*/
+/*         Project Two          */
+/*==============================*/
+#projectTwo {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*==============================*/
+/*        Project Three         */
+/*==============================*/
+#projectThree {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*==============================*/
+/*         Project Four         */
+/*==============================*/
+#projectFour {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*==============================*/
+/*         Contact Page         */
+/*==============================*/
+#contactPage {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*==============================*/
+/*         Social Links         */
+/*==============================*/
+#socialLinks {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*==============================*/
+/*       Parallax Stuff         */
+/*==============================*/
+
+
+.parallax {
+  perspective: 1px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*padding: 100vh 0;*/
+  font-size: 24px;
+  height: 500px;
+  }
+.one {
+  transform: translateZ(-1px) scale(2);
+} 
+.align1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-12%, -50%);
+}
+.two {
+  transform: translateZ(0);
+  color: red;
+}
+.align2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.three {
+  transform: translateZ(-2px) scale(3);
+  color: blue;
+}
+.align3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.four {
+  transform: translateZ(-3px) scale(4);
+  color: green;
+}
+.align4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
