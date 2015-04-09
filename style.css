@@ -1,5 +1,15 @@
-body {
+html {
 	font-family: 'Raleway', sans-serif;
+	background: rgb(209,211,209); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(209,211,209,1) 0%, rgba(245,249,240,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(209,211,209,1)), color-stop(100%,rgba(245,249,240,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* IE10+ */
+	background: linear-gradient(135deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d3d1', endColorstr='#f5f9f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	height: 100%;
+
 }
 
 /*==============================*/
@@ -15,7 +25,44 @@ body {
 	padding-bottom: 5px;
 }
 
+#buttonArea {
+	background-color: red;
+	width: 300px;
+	margin: 0 auto;
+}
 
+button {
+	background-color: transparent;
+	border: 1px  solid;
+	width: 45%;
+	float: left;
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Float */
+/*http://ianlunn.github.io/Hover/*/
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
 
 /*==============================*/
 /*       Bottom Container       */
@@ -190,6 +237,8 @@ img.desaturate { -webkit-filter: grayscale(100%); filter: grayscale(100%); }*/
   -webkit-filter: grayscale(0%);
 }
 */
+
+
 
 
 
