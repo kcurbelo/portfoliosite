@@ -1,13 +1,13 @@
 html {
 	font-family: 'Raleway', sans-serif;
-	background: rgb(209,211,209); /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  rgba(209,211,209,1) 0%, rgba(245,249,240,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(209,211,209,1)), color-stop(100%,rgba(245,249,240,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(-45deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(-45deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(-45deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* IE10+ */
-	background: linear-gradient(135deg,  rgba(209,211,209,1) 0%,rgba(245,249,240,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d3d1', endColorstr='#f5f9f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background: -moz-linear-gradient(-45deg,  rgba(252,252,252,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(135deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 	height: 100%;
 
 }
@@ -23,6 +23,7 @@ html {
 	margin: 0 auto;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-bottom: 100px;
 }
 
 #buttonArea {
@@ -65,61 +66,29 @@ button {
 }
 
 /*==============================*/
-/*       Bottom Container       */
+/*         Bottom Area          */
 /*==============================*/
-#bottomContainer {
-	width: 90%;
-	text-align: center;
-	margin: 0 auto;
-}
-
-
-/*==============================*/
-/*         Project One          */
-/*==============================*/
-#projectOne {
-	width: 90%;
-	margin: 0 auto;
-	/*background-color: green;*/
-	padding: 10px;
-}
-
-.image {
+.project {
 	width: 100%;
-	height: 100%;
-	max-width: 350px;
-	max-height: 350px;
-	border-radius: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	/*background-color: #93CCEA;*/
+	margin-bottom: 75px;
+	margin-top: 75px;
 }
 
-
-/*==============================*/
-/*         Project Two          */
-/*==============================*/
-#projectTwo {
-	width: 90%;
-	margin: 0 auto;
+.projectBarnacle {
+	width: 300px;
+	/*margin: 0 40%;*/
 }
 
-
-/*==============================*/
-/*        Project Three         */
-/*==============================*/
-#projectThree {
-	width: 90%;
-	margin: 0 auto;
+#barnacle {
+	margin: 0 30%;
+	width: 700px;
 }
 
-
-/*==============================*/
-/*         Project Four         */
-/*==============================*/
-#projectFour {
-	width: 90%;
-	margin: 0 auto;
+.width {
+	width: 100%;
 }
+
 
 
 /*==============================*/
@@ -186,7 +155,7 @@ button {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-12%, -50%);
+	transform: translate(-50%, -50%);
 }
 .two {
   transform: translateZ(0);
