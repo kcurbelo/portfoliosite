@@ -15,22 +15,15 @@ body {
 	padding-bottom: 5px;
 }
 
-/*==============================*/
-/*     Project questions        */
-/*==============================*/
-#questions {
-	width: 90%;
-	text-align: center;
-	margin: 0 auto;
-}
+
 
 /*==============================*/
 /*       Bottom Container       */
 /*==============================*/
 #bottomContainer {
 	width: 90%;
+	text-align: center;
 	margin: 0 auto;
-	/*background-color: bisque;*/
 }
 
 
@@ -86,7 +79,7 @@ body {
 /*         Contact Page         */
 /*==============================*/
 #contactPage {
-	width: 90%;
+	width: 350px;
 	margin: 0 auto;
 	border-radius: 10px;
 	/*background-color: blue;*/
@@ -95,6 +88,8 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	max-width: 350px;
+	border: 1px solid black;
+	border-radius: 10px;
 }
 
 /*==============================*/
@@ -122,7 +117,7 @@ body {
 
 .parallax {
   perspective: 1px;
-  height: 500px;
+  height: 400px;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -135,7 +130,7 @@ body {
   right: 0;
   /*padding: 100vh 0;*/
   font-size: 24px;
-  height: 500px;
+  height: 400px;
   }
 .one {
   transform: translateZ(-1px) scale(2);
@@ -177,16 +172,13 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-
-
-
-img.desaturate { filter: grayscale(100%); }
-img.desaturate { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+/*img.desaturate { filter: grayscale(100%); }
+img.desaturate { -webkit-filter: grayscale(100%); filter: grayscale(100%); }*/
 
 
 /*B&W*/
 /*//http://designshack.net/?p=36895*/
-.bw {
+/*.bw {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -197,7 +189,7 @@ img.desaturate { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 .bw:hover {
   -webkit-filter: grayscale(0%);
 }
-
+*/
 
 
 
