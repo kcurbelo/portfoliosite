@@ -1,360 +1,75 @@
 html {
 	font-family: 'Raleway', sans-serif;
-background: -moz-linear-gradient(-45deg,  rgba(252,252,252,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
-background: linear-gradient(135deg,  rgba(252,252,252,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-	height: 100%;
-
 }
 
 /*==============================*/
-/*       Contact Card           */
+/*            Nav               */
 /*==============================*/
-#contactCard {
-	/*background-color: burlywood;*/
+
+#navBar {
 	width: 90%;
-	text-align: center;
-	font-size: 32px;
-	margin: 0 auto;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-bottom: 100px;
-}
-
-#buttonArea {
-	background-color: red;
-	width: 300px;
-	margin: 0 auto;
-}
-
-button {
-	background-color: transparent;
-	border: 1px  solid;
-	width: 45%;
-	float: left;
-	margin-left: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-/* Float */
-/*http://ianlunn.github.io/Hover/*/
-.hvr-float {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
-}
-
-/*==============================*/
-/*         Bottom Area          */
-/*==============================*/
-.project {
-	width: 100%;
-	/*background-color: #93CCEA;*/
-	margin-bottom: 75px;
-	margin-top: 75px;
-}
-
-.projectBarnacle {
-	width: 300px;
-	/*margin: 0 40%;*/
-}
-
-#barnacle {
-	margin: 0 30%;
-	width: 700px;
-}
-
-.width {
-	width: 100%;
-}
-
-
-
-/*==============================*/
-/*         Contact Page         */
-/*==============================*/
-#contactPage {
-	width: 350px;
-	margin: 0 auto;
-	border-radius: 10px;
-	/*background-color: blue;*/
-	font-size: 24px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	max-width: 350px;
-	border: 1px solid black;
-	border-radius: 10px;
-}
-
-/*==============================*/
-/*         Social Links         */
-/*==============================*/
-#socialLinks {
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 10px;
-}
-
-.linkImage {
-	width:90px;
-	height: 90px;
-	margin: 0 5px 0 5px;
-}
-
-.leftmargin {
-	margin-left: 10px;
-}
-/*==============================*/
-/*       Parallax Stuff         */
-/*==============================*/
-
-
-.parallax {
-  perspective: 1px;
-  height: 400px;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /*padding: 100vh 0;*/
-  font-size: 24px;
-  height: 400px;
-  }
-.one {
-  transform: translateZ(-1px) scale(2);
-} 
-.align1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.two {
-  transform: translateZ(0);
-  color: red;
-}
-.align2 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.three {
-  transform: translateZ(-2px) scale(3);
-  color: blue;
-}
-.align3 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.four {
-  transform: translateZ(-3px) scale(4);
-  color: green;
-}
-.align4 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-/*img.desaturate { filter: grayscale(100%); }
-img.desaturate { -webkit-filter: grayscale(100%); filter: grayscale(100%); }*/
-
-
-/*B&W*/
-/*//http://designshack.net/?p=36895*/
-/*.bw {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-.bw:hover {
-  -webkit-filter: grayscale(0%);
-}
-*/
-
-.demo-1 {
-    position:relative;
-    width:300px; 
-   height:200px;
-    overflow:hidden;
-    float:left;
-    margin-right:20px;
-    background-color:rgba(26,76,110,0.5)
-}
-.demo-1 p,.demo-1 h2 {
-    color:#fff;
-    padding:10px;
-    left:-20px;
-    top:20px;
-    position:relative
-}
-.demo-1 p {
-    font-family:'Lato';
-    font-size:12px;
-    line-height:18px;
-    margin:0
-}
-.demo-1 h2 {
-    font-family:'Lato';
-    font-size:20px;
-    line-height:24px;
-    margin:0;
-}
-.effect img {
-    position:absolute;
-    margin:-15px 0;
-    right:0;
-    top:0;
-    cursor:pointer;
-    -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
-    -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
-    -o-transition:top .4s ease-in-out,right .4s ease-in-out;
-    transition:top .4s ease-in-out,right .4s ease-in-out
-}
-.effect img.top:hover {
-    top:-230px;
-    right:-330px;
-    padding-bottom:200px;
-    padding-left:300px
-}
-
-
-/*===========================================================*/
-/**/
-/*============================================================*/
-h1 {
-	margin: 0 0;
-	margin-bottom: 10px; 
-}
-
-h2 {
-	margin: 0 0; 
-	margin-bottom: 10px;
-}
-
-
-#mainContainer {
-	background-color: beige;
-}
-
-/*========== Contact info ============*/
-#nameTile {
 	background-color: burlywood;
+	margin: 0 auto;
+	height: 100px;
+}
+
+#name {
+	float: left;
+}
+
+#navButtons {
+	float: right;
+	margin-top: 35px;
+}
+
+#row1 {
 	width: 90%;
+	background-color: red;
 	margin: 0 auto;
 }
 
-#contactTile {
-	background-color: brown;
+#s1 {
+	width: 49%;
+	background-color: burlywood;
+	height: 300px;
+	float: left;
+	margin-top: 2%;
+	/*margin-left: 5%;*/
+	/*margin-right: 2.5%*/
+}
+
+#s2 {
+	width: 49%;
+	background-color: black;
+	height: 300px;
+	float: right;
+	margin-top: 2%;
+	/*margin-right: 5%;*/
+	/*margin-left: 2.5%	*/
+}
+
+#row2 {
 	width: 90%;
+	background-color: red;
 	margin: 0 auto;
 }
 
-
-/*========== Projects ============*/
-.projectImage {
-	height: 235px;
-	width: 100%;
+#s3 {
+	width: 49%;
+	background-color: blue;
+	height: 300px;
+	float: left;
+	margin-top: 2%;
+	/*margin-left: 5%;*/
+	/*margin-right: 2.5%*/
 }
 
-.caption {
-	height: 115px;
-	padding: 20px;
-	font-size: 22px;
-	margin: 0 0;
-	margin-bottom: 10px;
-
-}
-
-#projectOne {
+#s4 {
+	width: 49%;
 	background-color: orange;
-	width: 90%;
-	margin: 0 auto;
+	height: 300px;
+	float: right;
+	margin-top: 2%;
+	/*margin-right: 5%;*/
+	/*margin-left: 2.5%	*/	
 }
-
-#projectTwo {
-	background-color: grey;
-	width: 90%;
-	margin: 0 auto;
-}
-
-#projectThree {
-	background-color: salmon;
-	width: 90%;
-	margin: 0 auto;
-}
-
-#projectFour {
-	background-color: green;
-	width: 90%;
-	margin: 0 auto;
-}
-
-/*========== Social Links ============*/
-.socialImage {
-	width: 44.69%;
-	margin: 10px 10px;
-	
-}
-
-#socialTile {
-	/*background-color: black;*/
-	width: 90%;
-	margin: 0 auto;
-}
-
-
-#github {
-	background-color: lightyellow;
-	width: 90%;
-	margin: 0 auto;
-}
-
-#gaProfile {
-	background-color: navajowhite;
-	width: 90%;
-	margin: 0 auto;
-}
-
-#facebook {
-	background-color: peru;
-	width: 90%;
-	margin: 0 auto;	
-}
-
-
