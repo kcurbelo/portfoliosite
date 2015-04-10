@@ -207,7 +207,154 @@ img.desaturate { -webkit-filter: grayscale(100%); filter: grayscale(100%); }*/
 }
 */
 
+.demo-1 {
+    position:relative;
+    width:300px; 
+   height:200px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color:rgba(26,76,110,0.5)
+}
+.demo-1 p,.demo-1 h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative
+}
+.demo-1 p {
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.demo-1 h2 {
+    font-family:'Lato';
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+}
+.effect img {
+    position:absolute;
+    margin:-15px 0;
+    right:0;
+    top:0;
+    cursor:pointer;
+    -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -o-transition:top .4s ease-in-out,right .4s ease-in-out;
+    transition:top .4s ease-in-out,right .4s ease-in-out
+}
+.effect img.top:hover {
+    top:-230px;
+    right:-330px;
+    padding-bottom:200px;
+    padding-left:300px
+}
 
 
+/*===========================================================*/
+/**/
+/*============================================================*/
+h1 {
+	margin: 0 0;
+	margin-bottom: 10px; 
+}
+
+h2 {
+	margin: 0 0; 
+	margin-bottom: 10px;
+}
+
+
+#mainContainer {
+	background-color: beige;
+}
+
+/*========== Contact info ============*/
+#nameTile {
+	background-color: burlywood;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#contactTile {
+	background-color: brown;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*========== Projects ============*/
+.projectImage {
+	height: 235px;
+	width: 100%;
+}
+
+.caption {
+	height: 115px;
+	padding: 20px;
+	font-size: 22px;
+	margin: 0 0;
+	margin-bottom: 10px;
+
+}
+
+#projectOne {
+	background-color: orange;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#projectTwo {
+	background-color: grey;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#projectThree {
+	background-color: salmon;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#projectFour {
+	background-color: green;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*========== Social Links ============*/
+.socialImage {
+	width: 44.69%;
+	margin: 10px 10px;
+	
+}
+
+#socialTile {
+	/*background-color: black;*/
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+#github {
+	background-color: lightyellow;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#gaProfile {
+	background-color: navajowhite;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#facebook {
+	background-color: peru;
+	width: 90%;
+	margin: 0 auto;	
+}
 
 
