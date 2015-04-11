@@ -1,5 +1,6 @@
 html {
 	font-family: 'Raleway', sans-serif;
+	background-color: #F5F5F5;
 }
 
 /*==============================*/
@@ -8,7 +9,7 @@ html {
 
 #navBar {
 	width: 90%;
-	background-color: burlywood;
+	/*background-color: burlywood;*/
 	margin: 0 auto;
 	height: 100px;
 }
@@ -30,22 +31,28 @@ html {
 
 #s1 {
 	width: 49%;
-	background-color: burlywood;
+	/*background-color: burlywood;*/
 	height: 300px;
 	float: left;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 	/*margin-left: 5%;*/
 	/*margin-right: 2.5%*/
+	font-size: 2em;
 }
 
 #s2 {
 	width: 49%;
-	background-color: black;
+	background-color: #BDBDBD;
 	height: 300px;
 	float: right;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 	/*margin-right: 5%;*/
 	/*margin-left: 2.5%	*/
+	color: #F5F5F5;
+}
+
+#s2 h2{
+	margin-left: 10px;
 }
 
 #row2 {
@@ -56,13 +63,39 @@ html {
 
 #s3 {
 	width: 49%;
-	background-color: blue;
+	background-color: #BDBDBD;
 	height: 300px;
 	float: left;
 	margin-top: 2%;
 	/*margin-left: 5%;*/
 	/*margin-right: 2.5%*/
 }
+
+#s3Div {
+	background-color: white;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto; 
+	margin-top: 155px;
+}
+
+.middle {
+	/*background-color: white;*/
+	width: 100px;
+	/*text-align: center;*/
+	/*margin: 0 auto; */
+	/*margin-top: 50px;*/
+	margin-bottom: 50px;
+	margin-left: 10px;
+	color: #F5F5F5;	
+}
+
+.icon {
+	width: 20%;
+	margin: 0 2%;
+
+}
+
 
 #s4 {
 	width: 49%;
@@ -73,3 +106,70 @@ html {
 	/*margin-right: 5%;*/
 	/*margin-left: 2.5%	*/	
 }
+
+#s4Div {
+	background-color: white;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto; 
+	margin-top: 155px;
+}
+
+#row3 {
+	width: 90%;
+	background-color: red;
+	margin: 0 auto;
+}
+
+#s5 {
+	width: 49%;
+	background-color: brown;
+	height: 300px;
+	float: left;
+	margin-top: 2%;
+	/*margin-left: 5%;*/
+	/*margin-right: 2.5%*/
+}
+
+#s6 {
+	width: 49%;
+	background-color: yellow;
+	height: 300px;
+	float: right;
+	margin-top: 2%;
+	/*margin-right: 5%;*/
+	/*margin-left: 2.5%	*/	
+}
+
+
+/*============================================*/
+/**/
+/*============================================*/
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+
+
+
+
+
