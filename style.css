@@ -7,6 +7,10 @@ html {
 /*            Nav               */
 /*==============================*/
 
+a {
+	text-decoration: none;
+}
+
 #navBar {
 	width: 90%;
 	/*background-color: burlywood;*/
@@ -18,10 +22,42 @@ html {
 	float: left;
 }
 
+#name h1 {
+	margin-left: 10px;
+}
+
 #navButtons {
 	float: right;
 	margin-top: 35px;
+	/*background-color: red;*/
+	width: 49%
 }
+
+.navButton1 {
+	/*margin: 0 2%;*/
+/*	background-color: red;
+*/	padding: 3% 10% 3% 10%;
+	margin-right: 4%;
+}
+
+.navButton2 {
+	/*margin: 0 2%;*/
+/*	background-color: red;
+*/	padding: 3% 10% 3% 10%;
+	margin-right: 4%;
+}
+
+.navButton3 {
+	/*margin: 0 2%;*/
+/*	background-color: red;
+*/	padding: 3% 10% 3% 10%;
+}
+
+
+
+
+
+
 
 #row1 {
 	width: 90%;
@@ -38,6 +74,12 @@ html {
 	/*margin-left: 5%;*/
 	/*margin-right: 2.5%*/
 	font-size: 2em;
+	border: 1px solid #BDBDBD;
+}
+
+#s1 h2 {
+	color: #BDBDBD;
+	margin-left: 10px; 
 }
 
 #s2 {
@@ -49,11 +91,19 @@ html {
 	/*margin-right: 5%;*/
 	/*margin-left: 2.5%	*/
 	color: #F5F5F5;
+	border: 1px solid #BDBDBD;
 }
 
-#s2 h2{
+#s2 h2 {
 	margin-left: 10px;
+	margin-bottom: 10px;
 }
+
+.floatRight {
+	float: right;
+	height: 100%;
+}
+
 
 #row2 {
 	width: 90%;
@@ -66,9 +116,11 @@ html {
 	background-color: #BDBDBD;
 	height: 300px;
 	float: left;
-	margin-top: 2%;
+	margin-top: 1.8%;
+	margin-bottom: 2%;
 	/*margin-left: 5%;*/
 	/*margin-right: 2.5%*/
+	border: 1px solid #BDBDBD;
 }
 
 #s3Div {
@@ -93,18 +145,29 @@ html {
 .icon {
 	width: 20%;
 	margin: 0 2%;
-
+}
+.socialIcons {
+	display: block;
+	width: 45px;
+	margin-left: 2%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
+.firstIcon {
+	margin-left: 2%;
+}
 
 #s4 {
 	width: 49%;
 	background-color: orange;
 	height: 300px;
 	float: right;
-	margin-top: 2%;
+	margin-top: 1.8%;
 	/*margin-right: 5%;*/
 	/*margin-left: 2.5%	*/	
+	border: 1px solid #BDBDBD;
+	margin-bottom: 2%;
 }
 
 #s4Div {
@@ -112,7 +175,7 @@ html {
 	width: 150px;
 	text-align: center;
 	margin: 0 auto; 
-	margin-top: 155px;
+	margin-top: 140px;
 }
 
 #row3 {
